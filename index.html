@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel = "stylesheet" href = "styles.css" />
+</head>
+
+<body>
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container"> 
+            <a href = "/" id = "navbar__logo">Brandon Lehman</a>
+            <div class="navbar__toggle" id = "mobile-menu">
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+            </div>
+            <ul class = "navbar__menu">
+                <li class = "navbar__item" >
+                    <a href = "/" class = "navbar__links">Home</a>
+                </li>
+
+                <li class = "navbar__item"> 
+                    <a href="/about.html" class = "navbar__links">about</a> 
+                </li>
+
+                <li class = "navbar__item" >
+                    <a href = "/" class = "navbar__links">Contacts</a>
+                </li>
+
+                <li class = "navbar__btn" >
+                    <a href = "https://github.com/BrandonLehman22?tab=repositories" class = "button">Projects</a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+
+    <!-- main section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Welcome to my Personal Portfolio</h1>
+                <h2>GET TO KNOW ME</h2>
+                <p>Hi I'm Brandon! welcome to my personal website. I am a computer science major at ASU aspiring to become a software engineer.</p>
+                <button class="main__btn"> <a href="/">Socials</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/me.jpg" alt="Me" height = "" style = "border: 5px; border-style: ridge;"width = "400" id="main__id"> 
+            </div>
+        </div>
+    </div>
+
+    <!-- services/bottom section -->
+
+    <div class="services">
+        <h1> Projects I Have Created</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Games I've Created</h2>
+                <p>Link to Some Games I've Created</p>
+                
+                <a href = "/project.html">
+                <button> Games </button>
+                </a>
+
+            </div>
+            <div class="services__card">
+                <h2> APIs I've Created</h2>
+                <p> Link to Projects using API that I've worked on</p>
+
+                <a href = "/project.html">
+                <button> API </button>
+                </a>
+               
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+
+    <!-- has the images of different social media-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Socials</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="social__icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/brandonlehmann_/" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/brandon-lehman-b016ba290/" class="fa fa-linkedin"></a>
+                </div>
+                <p class="website__rights">© Brandon Lehman 2024. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+    <script src = "app.js"></script>
+</body>
+</html>
